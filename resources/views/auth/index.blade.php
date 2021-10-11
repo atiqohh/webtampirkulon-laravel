@@ -17,7 +17,7 @@
         @csrf
         <img class="mb-4" src="/img/logo-large.png" alt="" height="200">
         <h4 class="mb-3">Selamat Datang Admin</h4>
-        <h6 class="mb-3 fw-normal">Silahkan Login!!</h6>
+        <h6 class="mb-3 fw-normal">Silahkan Login Yaa!!</h6>
 
         <div class="form-floating">
           <input type="email" class="form-control @error('email') is-invalid  @enderror" name="email" id="email" placeholder="name@example.com" value="{{ old('email') }}" autofocus required>
